@@ -157,20 +157,3 @@ This is a **portfolio project implementation**, not a production regulatory VaR 
 
 An Isolation Forest model scores simulated trade features including notional, quantity, price deviation and option moneyness. The dashboard surfaces the latest anomaly score.
 
-## Resume metrics
-
-Use only metrics you measure yourself. The benchmark records:
-
-- events processed/sec
-- p50/p95 processing latency
-- number of trades processed
-- risk snapshots generated
-- test count
-
-Example resume wording after measurement:
-
-> Built an event-driven trade-risk platform processing **X events/sec** at **Y ms p95 latency**, streaming simulated trades and market ticks through Kafka; implemented Black-Scholes Greeks, historical 95% VaR, P&L and exposure analytics with automated tests.
-
-If anomaly detection is enabled and benchmarked:
-
-> Added an Isolation Forest pipeline over **X+ simulated trades**, flagging **Y%** of injected anomalous transactions while exposing risk and anomaly metrics through a live Streamlit dashboard.
